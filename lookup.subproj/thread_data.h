@@ -24,7 +24,7 @@
 #ifndef __THREAD_DATA_H__
 #define __THREAD_DATA_H__
 
-#include <si_data.h>
+#include "si_data.h"
 
 si_item_t *LI_get_thread_item(uint32_t key);
 si_list_t *LI_get_thread_list(uint32_t key);

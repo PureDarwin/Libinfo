@@ -21,7 +21,7 @@
  * @APPLE_LICENSE_HEADER_END@
  */
 
-#include <si_module.h>
+#include "si_module.h"
 
 /*
  * SPI to disable / enable modules during Libinfo search.

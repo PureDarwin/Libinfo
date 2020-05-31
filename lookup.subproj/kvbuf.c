@@ -27,7 +27,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <kvbuf.h>
+#include "kvbuf.h"
 
 #define KVBUF_CHUNK 256
 

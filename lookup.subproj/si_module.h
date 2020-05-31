@@ -36,8 +36,8 @@
 #include <aliasdb.h>
 #include <fstab.h>
 #include <mach/mach.h>
-#include <si_data.h>
-#include <ils.h>
+#include "si_data.h"
+#include "ils.h"
 
 #define forever for(;;)
 #define string_equal(A,B) (strcmp(A,B)==0)

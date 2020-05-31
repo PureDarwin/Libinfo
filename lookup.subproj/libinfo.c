@@ -38,7 +38,7 @@
 #include <netinet/if_ether.h>
 #include "si_module.h"
 #include "libinfo.h"
-#include <thread_data.h>
+#include "thread_data.h"
 #include <sys/kauth.h>
 #include "netdb_async.h"
 #include <dispatch/dispatch.h>

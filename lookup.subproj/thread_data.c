@@ -23,7 +23,7 @@
 
 #include "libinfo_common.h"
 
-#include <thread_data.h>
+#include "thread_data.h"
 #include <pthread.h>
 #include <string.h>
 #include <stdlib.h>
