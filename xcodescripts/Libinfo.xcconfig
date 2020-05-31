@@ -1,6 +1,6 @@
 // Copyright (c) 2018 Apple Inc. All rights reserved.
 
-#include "<DEVELOPER_DIR>/Makefiles/CoreOS/Xcode/BSD.xcconfig"
+#include "darwinbuild.xcconfig"
 
 HEADER_SEARCH_PATHS = /usr/local/include $(SDKROOT)/System/Library/Frameworks/System.framework/PrivateHeaders
 INSTALLHDRS_SCRIPT_PHASE = YES
