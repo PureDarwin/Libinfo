@@ -79,8 +79,6 @@ static char *rcsid = "$Id: pmap_getmaps.c,v 1.4 2004/12/19 22:45:44 zarzycki Exp
 #define NAMELEN 255
 #define MAX_BROADCAST_SIZE 1400
 
-extern int errno;
-
 /*
  * Get a copy of the current port maps.
  * Calls the pmap service remotely to do get the maps.
