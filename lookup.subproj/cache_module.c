@@ -23,7 +23,7 @@
 
 #include "libinfo_common.h"
 
-#include <si_module.h>
+#include "si_module.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
@@ -31,7 +31,7 @@
 #include <errno.h>
 #include <arpa/inet.h>
 #include <sys/stat.h>
-#include <ils.h>
+#include "ils.h"
 #include <pthread.h>
 #include <libkern/OSAtomic.h>
 #include <dispatch/dispatch.h>

@@ -36,7 +36,7 @@
 #ifdef DEBUG
 #include <asl.h>
 #endif
-#include <ils.h>
+#include "ils.h"
 
 #define ILS_MAGIC_SIZE 8
 #define ILS_MAGIC "ILSMAGIC"

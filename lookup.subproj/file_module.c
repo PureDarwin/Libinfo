@@ -21,7 +21,7 @@
  * @APPLE_LICENSE_HEADER_END@
  */
 
-#include <si_module.h>
+#include "si_module.h"
 #include <paths.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -35,7 +35,7 @@
 #include <sys/param.h>
 #include <sys/mount.h>
 #include <sys/stat.h>
-#include <ils.h>
+#include "ils.h"
 #include <dispatch/dispatch.h>
 #include <TargetConditionals.h>
 
