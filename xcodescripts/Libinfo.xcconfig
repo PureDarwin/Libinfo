@@ -66,10 +66,4 @@ DYLIB_COMPATIBILITY_VERSION = 1
 
 OTHER_LDFLAGS = -all_load -umbrella System -L/usr/lib/system $(LIBCOMPILER_RT_LDFLAGS) $(LIBDYLD_LDFLAGS) $(LIBSYSCALL_LDFLAGS) $(LIBMALLOC_LDFLAGS) $(LIBPLATFORM_LDFLAGS) $(LIBPTHREAD_LDFLAGS) $(LIBC_LDFLAGS) $(LIBDISPATCH_LDFLAGS) $(LIBASL_LDFLAGS) $(LIBBLOCKS_LDFLAGS) $(LIBDNSD_LDFLAGS) $(LIBNOTIFY_LDFLAGS) $(LIBXPC_LDFLAGS) $(LIBTRACE_LDFLAGS)
 
-// Text-Based API settings
-
-SUPPORTS_TEXT_BASED_API = YES
-TAPI_VERIFY_MODE = Pedantic
-OTHER_TAPI_FLAGS = -D LIBINFO_INSTALL_API=1 -extra-public-header $(SRCROOT)/Libinfo/pseudo_public.h -extra-public-header $(DSTROOT)/usr/include -extra-private-header $(DSTROOT)/usr/local/include -extra-private-header $(SRCROOT)/Libinfo/pseudo_private.h -umbrella System
-
 GCC_SYMBOLS_PRIVATE_EXTERN = YES
